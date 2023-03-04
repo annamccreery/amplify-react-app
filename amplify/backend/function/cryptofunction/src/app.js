@@ -53,11 +53,10 @@ app.get('/coins', function(req, res) {
 
 app.get("/born", function (req, res) {
 	// Define base url
-	let apiUrl = `https://api.github.com/users/annamccreery`;
+	const born = `https://api.github.com/users/annamccreery`;
 
 	// Call API and return response
-	axios
-		.get(apiUrl)
+	axios.get(born)
 		.then((response) => {
 			res.json({ born: response.data });
 		})
