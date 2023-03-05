@@ -58,6 +58,8 @@ const App = () => {
           ))
         }
         <Born />
+        <h2>Testing</h2>
+        console.log(Born())
       </div>
     );
 }
