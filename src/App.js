@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react'
 import { API } from 'aws-amplify'
-import './App.css';
 import { Born } from './Born.js';
 
 const App = () => {
