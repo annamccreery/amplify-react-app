@@ -22,8 +22,10 @@ export const Born = () => {
       useEffect(() => {
         fetchBorn()
       }, [])
-  
+
+      {loading && <h2>Loading...</h2>}
+      
       return (
-        <h2>{born.login}'s account was created on {born.created_at}</h2>
+        !loading && <h2>{born.login}'s account was created on {born.created_at}</h2>
       );
   };
