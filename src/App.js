@@ -54,13 +54,10 @@ const App = () => {
             <div key={index}>
               <h2>{coin.name} - {coin.symbol}</h2>
               <h5>${coin.price_usd}</h5>
-              <h2>Testing</h2>
             </div>
           ))
         }
         <Born />
-        
-        console.log(Born())
       </div>
     );
 }
