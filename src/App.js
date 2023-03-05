@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react'
 import { API } from 'aws-amplify'
 import './App.css';
+import { Born } from './Born.js';
 
 const App = () => {
   // Create coins variable and set to empty array
@@ -57,6 +57,7 @@ const App = () => {
             </div>
           ))
         }
+        <Born />
       </div>
     );
 }
