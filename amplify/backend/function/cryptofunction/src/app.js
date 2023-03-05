@@ -51,8 +51,6 @@ app.get('/coins', function(req, res) {
 
 /************** Get Method for Born *************************/
 
-const axios = require('axios')
-
 app.get("/born", function (req, res) {
 	// Define base url
 	const born = `https://api.github.com/users/annamccreery`;
